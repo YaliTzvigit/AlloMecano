@@ -1,0 +1,132 @@
+
+<!-- Contact -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Géoloc script -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="logtext">
+            <h2 style="cursor: pointer; color: maroon; font-style: italic ;" class="textl" onclick="window.location.href='capacitory/index.html'">
+                ALLôMecano
+            </h2>
+        </div>
+        <div class="links">
+            <a href="services.html" class="link"> Services </a>
+            <a href="about.html" class="link"> à propos </a>
+            <a href="contact.html" class="link"> Contactez-nous </a>
+        </div>
+        <h3 class="numcall" style="color: #db833a;">(+225) 0788729838 </h3>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="bodyp">
+        <h2 class="callus"> Nous contacter </h2>
+    </div>
+
+    <br>
+    <br>
+
+    <h2 style="text-align: center; color: #666; font-size: 20px;font-weight: 400;" class="donth"> 
+        Pour tout problème ou renseignement.
+    </h2>
+
+    <br>
+    <br>
+    <br>
+    
+    <section class="calling">
+        <div class="info">
+            <h3 class="how"> Appel</h3>
+            <span class="mailer">
+                <a href="mailto:allosupportci@gmail.com" target="_blank" class="maili">
+                    allosupportci@gmail.com
+                </a>
+            </span>
+            <span class="teli">
+                (+225) 0788729838
+            </span>
+        </div>
+        <div class="info">
+            <h3 class="how"> Adresse</h3>
+            <span class="addri">
+                Abidjan, Côte d'Ivoire
+            </span>
+            <span class="addri">
+                I222, Rue des Vallons, Galéries des Jardins.
+            </span>
+
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- formulaire de demande -->
+    <div class="form">
+        <form id="theform">
+            <input type="text" name="name" id="name" placeholder="Nom & prenom &bull; s *" class="input" required>
+            <input type="email" name="email" id="email" placeholder="allomecano123@gmail.com *" class="input" required>
+            <input type="text" name="phone" id="phone" placeholder="Tel: +225 0102030405 *" class="input" required>
+            <textarea name="message" id="message" placeholder="Message: Bonjour, j'ai besoin de me faire remorquer ..." class="textarea" required></textarea>
+            <input type="submit" id="sendmsg" value="Envoyer">
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- geolocalisation -->
+    <div class="geoloc">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.4662909477807!2d-3.996568625189556!3d5.3629751937584175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ebd4a2a4b1a65%3A0x9c7f69cbd8c8d77e!2sGalerie%20des%20Jardins%2C%202%20Plateaux%20Vallons%2C%20Abidjan%2C%20C%C3%B4te%20d'Ivoire!5e0!3m2!1sfr!2sci!4v1616946240983!5m2!1sfr!2sci" 
+            width="80%" 
+            height="350" 
+            style="border:0; filter: invert(1) hue-rotate(180deg);" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+    <br>
+    <section class="footer">
+        <div class="footers">
+            <div class="need">
+                <h2 class="h2"> Besoin d'aide ? </h2>
+                <button class="btca" onclick="">Centre d'aide</button>
+            </div>
+            <div class="flinks">
+                <h3 class="flinki"> Horaires </h3>
+                <span class="hour"> Lun, ven: 7h - 18h</span>
+                <span class="hour"> Sam: 7h - 17h</span>
+            </div>
+            <div class="flinks">
+                <h3 class="flinki"> Localisation </h3>
+                <span class="loc"> Abj, Cocody Palmeraie, Rue I222. </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script pour géolocaliser notre position avec le map de préférence noir de la Côte d'Ivoire. Cocody, Palmeraie, Rue I222. -->
+
+
+</body>
+</html>

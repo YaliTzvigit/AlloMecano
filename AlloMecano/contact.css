@@ -1,0 +1,114 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bodyp {
+    background: url(images/backmech.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.callus {
+    text-align: center;
+    font-size: 50px;
+}
+
+.calling {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+.info {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.how {
+    font-size: 2.5rem;
+    font-weight: 510;
+}
+
+.maili {
+    text-decoration: none;
+    color: green;
+    font-size: 0.9rem;
+}
+
+.teli {
+    margin-top: 5px;
+}
+
+.addri, .teli {
+    color: #344;
+  font-weight: 300;
+}
+
+/* formulaire de contacto */
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+#theform {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 40px;
+}
+
+.input {
+    width: 350px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 7px;
+}
+
+.textarea {
+    width: 350px;
+    height: 100px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.textarea:focus, .input:focus {
+    outline: none;
+}
+
+.textarea::placeholder, .input::placeholder {
+    color: #555;
+}
+
+#sendmsg {
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: transparent;
+    font-size: 16px;
+    width: 180px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#sendmsg:hover {
+    background-color: #333;
+    color: white;
+}
+
+.geoloc {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
